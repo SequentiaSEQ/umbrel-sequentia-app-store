@@ -1,4 +1,4 @@
-version: "3.7"
+version: "1.0"
 
 services:
   node:
@@ -10,7 +10,7 @@ services:
       - 18776 # JSONRPC
       - 18777 # P2P PORT
     volumes:
-      - ${APP_DATA_DIR}/data:/home/elements/.elements
+      - ${APP_DATA_DIR}/data:/home/sequentia/.elements
     command:
       - -chain=test
       - -txindex=1

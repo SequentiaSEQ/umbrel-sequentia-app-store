@@ -1,8 +1,8 @@
 manifestVersion: 1
 id: sequentia-testnet
 name: Sequentia Testnet Node
-tagline: Replace this tagline with your app's tagline
-icon: https://framerusercontent.com/images/9Ez4LUPnH8VMAFZxbui8KhyjYA8.svg
+tagline: sequentia testnet node blockchain
+icon: https://explorer.sequentia.io/img/favicon.png
 category: Bitcoin
 version: "0.2"
 port: 18777
@@ -10,8 +10,8 @@ description: >-
       Sequentia testnet node
 developer: Mixa84
 website: https://www.sequentia.io
-submitter: Mixa84
-submission: https://github.com/
+submitter: Mihailo Milenkovic
+submission: https://github.com/SequentiaSEQ/umbrel-sequentia-app-store/commit/7bf28182c2a4f26c8b2033dafe86fd826e7c3226
 repo: https://github.com/SequentiaSEQ/sequentia
 support: https://github.com/SequentiaSEQ/sequentia/issues
 gallery:
