@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: sequentia-testnet
+name: Sequentia testnet node
+tagline: Sequentia blockchain
+icon: https://testnet.sequentia.io/ambra/sequentia.svg
+category: Bitcoin
+version: "0.2"
+port: 3043
+description: >-
+      Sequentia blockchain for a testnet network. It includes:
+      - Sequentia node
+      - Sequentia Electrum server
+      - Simple web interface with connection details
+developer: Sequentia
+website: https://www.sequentia.io
+submitter: Mihailo Milenkovic
+submission: https://github.com/SequentiaSEQ/umbrel-sequentia-app-store/commit/7bf28182c2a4f26c8b2033dafe86fd826e7c3226
+repo: https://github.com/SequentiaSEQ/sequentia
+support: https://github.com/SequentiaSEQ/sequentia/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release of Sequentia testnet node.
+  Node version: 0.2
+dependencies: []
+path: ""
+deterministicPassword: false
+torOnly: false
+defaultUsername: ""
+defaultPassword: ""
