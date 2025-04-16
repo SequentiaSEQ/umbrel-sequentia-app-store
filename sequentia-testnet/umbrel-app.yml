@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: sequentia-testnet
+name: Sequentia Testnet Node
+tagline: Replace this tagline with your app's tagline
+icon: https://framerusercontent.com/images/9Ez4LUPnH8VMAFZxbui8KhyjYA8.svg
+category: Bitcoin
+version: "0.2"
+port: 18777
+description: >-
+      Sequentia testnet node
+developer: Mixa84
+website: https://www.sequentia.io
+submitter: Mixa84
+submission: https://github.com/
+repo: https://github.com/SequentiaSEQ/sequentia
+support: https://github.com/SequentiaSEQ/sequentia/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
