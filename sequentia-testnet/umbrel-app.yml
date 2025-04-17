@@ -5,7 +5,7 @@ tagline: Sequentia blockchain
 icon: https://explorer.sequentia.io/img/favicon.png
 category: Bitcoin
 version: "0.2"
-port: 3042
+port: 3043
 description: >-
       Sequentia testnet node
 developer: Mihailo Milenkovic

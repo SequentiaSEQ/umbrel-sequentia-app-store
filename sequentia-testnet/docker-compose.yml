@@ -19,8 +19,8 @@ services:
     command:
       - -chain=test
       - -txindex=1
-      - -rpcuser=sequentia
-      - -rpcpassword=sequentia123
+      - -rpcuser=$APP_SEQUENTIA_RPC_USER
+      - -rpcpassword=$APP_PASSWORD
       - -rpcbind=0.0.0.0 # can we do better here?
       - -rpcallowip=0.0.0.0/0 # can we do better here?
 
@@ -31,8 +31,8 @@ services:
       - node
     restart: on-failure
     environment:
-      RPC_USER: sequentia
-      RPC_PASS: sequentia
+      RPC_USER: $APP_SEQUENTIA_RPC_USER
+      RPC_PASS: $APP_PASSWORD
       RPC_PORT: $APP_SEQUENTIA_NODE_RPC_PORT
       RPC_HOST: sequentia-testnet_node_1
       P2P_PORT: $APP_SEQUENTIA_NODE_P2P_PORT
