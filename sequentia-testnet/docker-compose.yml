@@ -26,6 +26,9 @@ services:
       - -rpcpassword=$APP_PASSWORD
       - -rpcbind=0.0.0.0 # can we do better here?
       - -rpcallowip=0.0.0.0/0 # can we do better here?
+      - -onion=${APP_SEQUENTIA_TOR_PROXY_IP}:9050
+      - -torcontrol=${APP_SEQUENTIA_TOR_PROXY_IP}:9051
+      - -torpassword="moneyprintergobrrr"
 
   web:
     image: ghcr.io/sequentiaseq/sequentia-web:0.2@sha256:06dc09555231bcf89d5dce90c368f7f0f789bbf08c4591ad27c468a99f9b96e2
