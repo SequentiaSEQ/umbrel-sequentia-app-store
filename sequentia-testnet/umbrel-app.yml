@@ -1,14 +1,14 @@
 manifestVersion: 1
 id: sequentia-testnet
 name: Sequentia Testnet Node
-tagline: sequentia testnet node blockchain
+tagline: Sequentia blockchain
 icon: https://explorer.sequentia.io/img/favicon.png
 category: Bitcoin
 version: "0.2"
-port: 18777
+port: 3042
 description: >-
       Sequentia testnet node
-developer: Mixa84
+developer: Mihailo Milenkovic
 website: https://www.sequentia.io
 submitter: Mihailo Milenkovic
 submission: https://github.com/SequentiaSEQ/umbrel-sequentia-app-store/commit/7bf28182c2a4f26c8b2033dafe86fd826e7c3226
@@ -22,5 +22,7 @@ releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
+deterministicPassword: false
+torOnly: false
 defaultUsername: ""
 defaultPassword: ""
