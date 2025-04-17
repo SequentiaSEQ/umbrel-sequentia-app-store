@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sequentia-testnet
 name: Sequentia Testnet Node
 tagline: Sequentia blockchain
-icon: https://explorer.sequentia.io/img/favicon.png
+icon: https://testnet.sequentia.io/ambra/sequentia.svg
 category: Bitcoin
 version: "0.2"
 port: 3043
