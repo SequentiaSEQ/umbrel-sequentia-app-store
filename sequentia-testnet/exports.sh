@@ -1,5 +1,8 @@
+export APP_SEQUENTIA_TOR_PROXY_IP="10.21.22.134"
+
 export APP_SEQUENTIA_NODE_RPC_PORT="18776"
 export APP_SEQUENTIA_NODE_P2P_PORT="18777"
+export APP_SEQUENTIA_NODE_TOR_PORT="18778"
 
 app_sequentia_rpc_hidden_service_file="${EXPORTS_TOR_DATA_DIR}/app-${EXPORTS_APP_ID}-rpc/hostname"
 app_sequentia_p2p_hidden_service_file="${EXPORTS_TOR_DATA_DIR}/app-${EXPORTS_APP_ID}-p2p/hostname"

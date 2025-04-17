@@ -14,6 +14,11 @@ services:
       - $APP_SEQUENTIA_NODE_P2P_PORT:$APP_SEQUENTIA_NODE_P2P_PORT # P2P PORT
     volumes:
       - ${APP_DATA_DIR}/data:/home/sequentia/.elements
+    environment:
+      TOR_PROXY_IP: "${APP_SEQUENTIA_TOR_PROXY_IP}"
+      TOR_PROXY_PORT: "9050"
+      TOR_PROXY_CONTROL_PORT: "9051"
+      TOR_PROXY_CONTROL_PASSWORD: "moneyprintergobrrr"
     command:
       - -chain=test
       - -txindex=1
@@ -47,3 +52,6 @@ services:
       - ${TOR_DATA_DIR}:/data
     environment:
       HOME: "/tmp"
+    networks:
+      default:
+        ipv4_address: "${APP_SEQUENTIA_TOR_PROXY_IP}"
