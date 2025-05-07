@@ -14,13 +14,13 @@ description: >-
 developer: Sequentia
 website: https://www.sequentia.io
 submitter: Mihailo Milenkovic
-submission: https://github.com/SequentiaSEQ/umbrel-sequentia-app-store/commit/7bf28182c2a4f26c8b2033dafe86fd826e7c3226
+submission: https://github.com/SequentiaSEQ/umbrel-sequentia-app-store/commit/fd7831ebbeb9a36917749834e73d2d8380415818
 repo: https://github.com/SequentiaSEQ/sequentia
 support: https://github.com/SequentiaSEQ/sequentia/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://testnet.sequentia.io/ambra/umbrel-seq-1.png
+  - https://testnet.sequentia.io/ambra/umbrel-seq-2.png
+  - https://testnet.sequentia.io/ambra/umbrel-seq-3.png
 releaseNotes: >-
   Initial release of Sequentia testnet node.
   Node version: 0.2

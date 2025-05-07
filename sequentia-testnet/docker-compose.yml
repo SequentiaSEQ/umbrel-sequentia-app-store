@@ -59,7 +59,7 @@ services:
           ipv4_address: $APP_SEQUENTIA_ELECTRS_IP
 
   web:
-    image: ghcr.io/sequentiaseq/sequentia-web:0.2@sha256:06dc09555231bcf89d5dce90c368f7f0f789bbf08c4591ad27c468a99f9b96e2
+    image: ghcr.io/sequentiaseq/sequentia-web:0.2@sha256:007fa1a89ee7cd387e694ea4c7b73a5c2036f0ca8c4f5b532fed91b8a2745b57
     user: "1000:1000"
     depends_on:
       - node
@@ -70,9 +70,11 @@ services:
       RPC_HOST: $APP_SEQUENTIA_NODE_IP
       RPC_PORT: $APP_SEQUENTIA_NODE_RPC_PORT
       P2P_PORT: $APP_SEQUENTIA_NODE_P2P_PORT
+      ELECTRUM_PORT: $APP_SEQUENTIA_ELECTRS_RPC_PORT
       # Remote
       REMOTE_RPC_HOST: $APP_SEQUENTIA_RPC_HIDDEN_SERVICE
       REMOTE_P2P_HOST: $APP_SEQUENTIA_P2P_HIDDEN_SERVICE
+      REMOTE_ELECTRUM_HOST: $APP_SEQUENTIA_ELECTRS_HIDDEN_SERVICE
     networks:
       default:
         ipv4_address: $APP_SEQUENTIA_IP

@@ -2,10 +2,14 @@ SocksPort 0.0.0.0:9050
 ControlPort 0.0.0.0:9051
 HashedControlPassword 16:39AF5EEFA4FC1D986022FDFB13663669FE50FB6DE9A3B4FE4FC7D82010 # moneyprintergobrrr
 
-# elements rpc Hidden Service
+# Sequentia RPC Hidden Service
 HiddenServiceDir /data/app-$APP_ID-rpc
 HiddenServicePort $APP_SEQUENTIA_NODE_RPC_PORT $APP_SEQUENTIA_NODE_IP:$APP_SEQUENTIA_NODE_RPC_PORT
 
-# elements p2p Hidden Service
+# Sequentia P2P Hidden Service
 HiddenServiceDir /data/app-$APP_ID-p2p
 HiddenServicePort $APP_SEQUENTIA_NODE_P2P_PORT $APP_SEQUENTIA_NODE_IP:$APP_SEQUENTIA_NODE_P2P_PORT
+
+# Sequentia Electurm Hidden Service
+HiddenServiceDir /data/app-$APP_ID-electrs
+HiddenServicePort $APP_SEQUENTIA_ELECTRS_RPC_PORT $APP_SEQUENTIA_ELECTRS_IP:$APP_SEQUENTIA_ELECTRS_RPC_PORT

@@ -9,6 +9,7 @@ if [[ -f "${HIDDEN_SERVICE_FILE}" ]]; then
 fi
 
 "${UMBREL_ROOT}/scripts/app" compose "${APP_ID}" up --detach node
+"${UMBREL_ROOT}/scripts/app" compose "${APP_ID}" up --detach electrs
 "${UMBREL_ROOT}/scripts/app" compose "${APP_ID}" up --detach tor
 
 echo "App: ${APP_ID} - Generating Tor Hidden Service..."
