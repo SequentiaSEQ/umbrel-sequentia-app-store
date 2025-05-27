@@ -5,7 +5,7 @@ services:
       APP_PORT: 8080
 
   node:
-    image: ghcr.io/sequentiaseq/sequentia-testnet:0.2@sha256:145fcd42cc4990151bc89aa9df932c09209aa08b5f2f92cfd555517a15fa7353
+    image: ghcr.io/sequentiaseq/sequentia-testnet:0.3@sha256:f6134fdb3812e5bf2be007b86f1b73484792250d7e030ae42b2bd2a33546b121
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -34,7 +34,7 @@ services:
         ipv4_address: $APP_SEQUENTIA_NODE_IP
 
   electrs:
-      image: ghcr.io/sequentiaseq/sequentia-electrs:0.2@sha256:ae52785abfe37b4ef44d0b3cc69a5cfb44aaeec00db0c8488c351162d28b0f73
+      image: ghcr.io/sequentiaseq/sequentia-electrs:0.3@sha256:3f4a10fedf5cec29686b4bd3493c61764c47c2d7b3e1eea8d48811a438471374
       user: "1000:1000"
       depends_on:
         - node

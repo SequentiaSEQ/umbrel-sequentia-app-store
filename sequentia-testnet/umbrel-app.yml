@@ -4,7 +4,7 @@ name: Sequentia testnet node
 tagline: Sequentia blockchain
 icon: https://testnet.sequentia.io/ambra/sequentia.svg
 category: Bitcoin
-version: "0.2"
+version: "0.3"
 port: 3043
 description: >-
       Sequentia blockchain for a testnet network. It includes:
@@ -23,7 +23,7 @@ gallery:
   - https://testnet.sequentia.io/ambra/umbrel-seq-3.png
 releaseNotes: >-
   Initial release of Sequentia testnet node.
-  Node version: 0.2
+  Node version: 0.3
 dependencies: []
 path: ""
 deterministicPassword: false
